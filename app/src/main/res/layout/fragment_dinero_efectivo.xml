@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.desarrollandoapps.senamarket.caja.DineroEfectivoFragment">
+
+    <TextView
+        android:text="Dinero en efectivo inicial:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textAlignment="center"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0123456789.,"
+        android:ems="10"
+        android:id="@+id/txtMontoDineroEfectivoInicial"
+        android:textAlignment="center"
+        android:paddingTop="10dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="Aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAgregarDineroEfectivoInicial"
+        android:paddingTop="10dp" />
+
+</LinearLayout>

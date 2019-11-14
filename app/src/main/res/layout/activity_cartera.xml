@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cartera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.desarrollandoapps.senamarket.cartera.CarteraActivity">
+
+    <TableRow android:layout_width="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btnVerClientes"
+            android:background="#00ffffff"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/clientes"
+            android:onClick="lanzarClientes" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnAgregarCliente"
+            android:background="#00ffffff"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/nuevo_cliente"
+            android:onClick="lanzarNuevoCliente" />
+    </TableRow>
+
+</TableLayout>

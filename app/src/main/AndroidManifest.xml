@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.desarrollandoapps.senamarket">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".caja.GestionCajaActivity"
+            android:label="Gestión de caja" />
+        <activity
+            android:name=".informes.InformesActivity"
+            android:label="Generador de Informes" />
+        <activity
+            android:name=".cartera.CarteraActivity"
+            android:label="Gestión de cartera" />
+        <activity
+            android:name=".cartera.ClientesActivity"
+            android:label="Clientes" />
+        <activity android:name=".cartera.ClienteActivity" />
+        <activity
+            android:name=".cartera.DatosContactoClienteActivity"
+            android:label="Datos de contacto"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".cartera.ActualizarDatosClienteActivity"
+            android:label="Actualizar datos"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".informes.FlujoNetoCajaActivity"
+            android:label="Flujo Neto de Caja"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".informes.EstadoCarteraActivity"
+            android:label="Estado de cartera" />
+        <activity
+            android:name=".informes.CuentasPorPagarActivity"
+            android:label="Cuentas por pagar" />
+        <activity
+            android:name=".presupuesto.PresupuestoActivity"
+            android:label="Presupuesto" />
+        <activity
+            android:name=".presupuesto.AgregarPresupuestoActivity"
+            android:label="Crear Presupuesto"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity
+            android:name=".presupuesto.VerPresupuestosActivity"
+            android:label="Presupuesto" />
+        <activity
+            android:name=".presupuesto.EditarPresupuestoActivity"
+            android:label="Editar Presupuesto"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity android:name=".calendario.CalendarioActivity" />
+        <activity
+            android:name=".calendario.NuevoEventoCalendarioActivity"
+            android:label="Agendar nuevo evento" />
+        <activity
+            android:name=".calendario.VerCalendariosActivity"
+            android:label="Próximos eventos" />
+        <activity
+            android:name=".configuracion.ConfiguracionActivity"
+            android:label="Configuración" />
+        <activity
+            android:name=".informes.EstadoNegocioActivity"
+            android:label="Estado del Negocio" />
+        <activity
+            android:name=".informes.MovimientosActivity"
+            android:label="Movimientos de caja" />
+        <activity android:name=".AcercaDeActivity"></activity>
+    </application>
+
+</manifest>

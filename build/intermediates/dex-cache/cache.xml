@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/c34d3232f7e8b7539b11ceb707c35967a21f918a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/classes_09c07dc2cb8f45609266bfe035bada7110850852.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_a21f84eb0423146320e9a436c8aad961dbf1fbd6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0c9f7bed62d196b35f5161073a9936894739e629/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/aab4d651b9e6dd53f49db54f75ae1e81384b4f7c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/classes_7acb6eab8679b72fbf6fd14211cc1a20c1668aaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/74a6ca6df126f30ce67470c26cfb36fc38d38abc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/classes_ba40fe30bbce10331ecddd6951207d9a96acb513.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v3.0.0-beta1/54d65d51b5ebec588a19b2384efb6395b5bf5b18/MPAndroidChart-v3.0.0-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="54d65d51b5ebec588a19b2384efb6395b5bf5b18">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/MPAndroidChart-v3.0.0-beta1_d3df32b761da64047768a2378f338ca3ff51cdba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/05852862b2fdafec9df76199e4ebe4f8d6f22ef3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/classes_5c57bcbe127034e30c69f2985bf3c3634d114d8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/c108793e27a80039f489c8278da78fcf5e2fde2c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/classes_fcd61162575ce7e35616096984642f70045cba7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/aab4d651b9e6dd53f49db54f75ae1e81384b4f7c/output/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_701764d8d8d8c30c717828580f473cdc7d72dfda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/04a6f474019078ed5f605c41701e925fd0fedf92/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/classes_b4ed88defe571667281c9211f0e8b0780acd20c8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e51ce0ea6d8c81b65e0a9b90e9fea18a5917aaae">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_dd378fc7237c2af0b4b0522cf0b1690708480584/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/JoseO/.android/build-cache/1e6b73b3ef7e43dfa5b8c1c274f24c0d836b2cd4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/JoseO/AndroidStudioProjects/SENAMarket/app/build/intermediates/pre-dexed/debug/classes_ee721139f0c583aacf7f3311bd6f5c550c46f9b9.jar" />
+    </item>
+
+</items>

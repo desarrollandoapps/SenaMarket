@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.desarrollandoapps.senamarket.MainActivity">
+
+    <TableRow android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btnEfectivoEnCaja"
+            android:src="@drawable/efectivo_en_caja"
+            android:onClick="abrirEfectivoEnCaja"
+            android:background="#00ffffff"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/btnOtrosIngresos"
+            android:src="@drawable/otros_ingresos"
+            android:background="#00ffffff"
+            android:layout_weight="1"
+            android:onClick="abrirOtrosIngresos" />
+
+        <ImageButton
+            android:id="@+id/btnEgresosNegocio"
+            android:src="@drawable/obligaciones"
+            android:background="#00ffffff"
+            android:layout_weight="1"
+            android:onClick="abrirObligaciones" />
+
+        <ImageButton
+            android:id="@+id/btnOtrosEgresos"
+            android:src="@drawable/otros_egresos"
+            android:background="#00ffffff"
+            android:layout_weight="1"
+            android:onClick="abrirOtrasObligaciones" />
+    </TableRow>
+</TableLayout>

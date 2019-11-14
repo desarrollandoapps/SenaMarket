@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.desarrollandoapps.senamarket.MainActivity"
+    android:orientation="vertical"
+    android:useDefaultMargins="false">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sena_market"
+            android:id="@+id/imageView"
+            android:paddingBottom="2dp"
+            android:layout_gravity="center"
+            android:paddingTop="3dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/btnCaja"
+                    android:onClick="abrirGestionCaja"
+                    android:src="@drawable/caja"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:cropToPadding="false"
+                    android:background="#00ffffff"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnObligaciones"
+                    android:src="@drawable/calendario"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:cropToPadding="false"
+                    android:onClick="abrirCalendario"
+                    android:background="#00ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="3dp">
+
+                <ImageButton
+                    android:id="@+id/btnPresupuesto"
+                    android:src="@drawable/presupuesto"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:onClick="abrirPresupuesto"
+                    android:cropToPadding="false"
+                    android:background="#00ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnInformes"
+                    android:src="@drawable/informes"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:cropToPadding="false"
+                    android:background="#00ffffff"
+                    android:onClick="abrirInformes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="3dp"
+                android:paddingBottom="5dp">
+
+                <ImageButton
+                    android:id="@+id/btnCartera"
+                    android:src="@drawable/cartera"
+                    android:layout_gravity="center"
+                    android:cropToPadding="false"
+                    android:background="#00ffffff"
+                    android:layout_weight="1"
+                    android:onClick="abrirCartera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/btnConfiguracion"
+                    android:src="@drawable/configuracion"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:onClick="abrirConfiguracion"
+                    android:cropToPadding="false"
+                    android:background="#00ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
